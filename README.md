@@ -13,9 +13,9 @@ completamente simulado de qPCR (no se utilizaron datos reales de campo ni de lab
 
 - **Pregunta:** ¿existe diferencia en la expresión relativa del gen diana entre las
   condiciones de normoxia, hipoxia y recuperación? Si es así, ¿entre cuáles?
-- **H₀:** la media de la expresión relativa (en escala log2(x+1)) es igual en las tres condiciones.
+- **H₀:** la media de la expresión relativa (en escala log2(x)) es igual en las tres condiciones.
 - **H₁:** al menos una condición tiene una media distinta de las demás.
-- **Método:** ANOVA de una vía sobre log2(x+1) con comparaciones de Tukey; Kruskal-Wallis
+- **Método:** ANOVA de una vía sobre log2(x) con comparaciones de Tukey; Kruskal-Wallis
   como prueba de apoyo.
 
 El dataset no identifica el gen diana, por lo que no se le atribuye una función específica.
